@@ -1,0 +1,157 @@
+/* Documento CSS */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header, section, footer, aside, nav, article, figure{
+ display: block;	
+}
+header{
+		background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	margin: 10px 200px;
+}
+body{
+	background-color: #FB6912;
+	text-align: center;
+}
+#ISesion{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #000;
+	height: auto;
+	padding: 60px 30px;
+	padding-bottom: 10px;
+	width: 250px;
+	position: relative;
+	float: left;
+}
+nav{
+	margin: 30px;
+	display: none;
+}
+li.verify{
+	list-style-type: none;
+	display: inline;
+	background-color: #fff;
+	margin: 0px 20px;
+	
+}
+li button[type="button"]{
+	background-color: #4690fb;
+	color: #fff;
+	padding: 10px 40px;
+}
+#Sesion{
+	width: 50%;
+	margin: auto;
+	
+	
+}
+
+.Login-User{
+	background: url('user.png') no-repeat;
+	width: 50px;
+	height: 50px;
+	background-size: 100%;
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	
+}
+
+ul.list{
+	list-style-type: none;
+	text-align: center;
+}
+ul.list li{
+	width: 250px;
+	margin-bottom: 15px;
+}
+ul.list li input{
+	width: 250px;
+	text-align: center;
+	padding: 8px 0px;
+	border: none;
+	background-color: #d3d3d3;
+	
+}
+ul.list li input[type="button"]{
+	background-color: #4690fb;
+	color: #fff;
+}
+ul.list li:nth-child(5){
+	color: red;
+	display: none;
+}
+aside{
+	width: 30%;
+	float: right;
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-right: 10px;
+	
+}
+aside#InfoLogin{
+	display: block;
+}
+aside#InfoQuest{
+	display: none;
+}
+aside#listRepos{
+	display: none;
+}
+aside#InfoRepos{
+	display: none;
+}
+p.Informacion{
+	padding: 10px 20px 20px 20px;
+	text-align: left;
+	font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+
+section#question{
+	position: absolute;
+	width: 600px;
+	margin: 10px 0px 10px 100px;
+	padding: 10px 0px 10px 10px;
+	background-color: aqua;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+}
+
+section#repository{
+	position: absolute;
+	width: 600px;
+	margin: 10px 0px 10px 100px;
+	padding: 10px 0px 10px 10px;
+	background-color: aqua;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+}
+section#list{
+	position: absolute;
+	width: 600px;
+	margin: 10px 0px 10px 100px;
+	padding: 10px 0px 10px 10px;
+	background-color: aqua;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+	
+}
+button.opc3{
+	
+	text-align: center;
+	background-color: #1ABBFF;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+	color: #fff;
+	margin: 5px;
+}
